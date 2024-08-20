@@ -2,16 +2,25 @@ import sqlite3
 import csv
 
 #git config --global user.name "Prabina Bhushal"
- git config --global user.email "bhushalprabina@gmail.com"
- git init
- git status
- git add .
- git status
- git commit -m "Add python project"
- git status
- git remote add origin https://github.com/prabinabhushal/PythonBasicProject.git
-git branch -M main
-git push -u origin main
+ #git config --global user.email "bhushalprabina@gmail.com"
+ #create acc in github
+ #git init
+ #git status
+ #git add .
+ #git status
+ #git commit -m "Add python project"
+ #git status
+
+ ##copy paste from github 3 line
+ #git remote add origin https://github.com/prabinabhushal/PythonBasicProject.git
+#git branch -M main
+#git push -u origin main
+
+###after changing any file
+#git status # checks what happened in the file
+#git add .
+#git commit -m "Your commit message"
+#git push origin 
 
 def create_connection():
     try:
