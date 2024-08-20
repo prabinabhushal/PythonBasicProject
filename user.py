@@ -1,5 +1,6 @@
-import sqlite3
 import csv
+
+import sqlite3
 
 #git config --global user.name "Prabina Bhushal"
  #git config --global user.email "bhushalprabina@gmail.com"
