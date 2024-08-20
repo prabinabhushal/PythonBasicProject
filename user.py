@@ -1,6 +1,18 @@
 import sqlite3
 import csv
 
+#git config --global user.name "Prabina Bhushal"
+ git config --global user.email "bhushalprabina@gmail.com"
+ git init
+ git status
+ git add .
+ git status
+ git commit -m "Add python project"
+ git status
+ git remote add origin https://github.com/prabinabhushal/PythonBasicProject.git
+git branch -M main
+git push -u origin main
+
 def create_connection():
     try:
         conn = sqlite3.connect("users.sqlite")
